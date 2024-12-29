@@ -22,6 +22,19 @@
 
 Urban Herbs combines **education**, **technology**, and **commerce** to support organic farming and the broader agricultural community. This platform is a valuable tool in promoting eco-friendly practices and fostering economic growth within farming communities.
 
+## Tech Stack
+
+- **Django**  
+  ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+- **HTML5**  
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+- **Bootstrap**  
+  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+- **Tailwind CSS**  
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 SCREENSHOT OF THE WEBSITE
 ![image](https://github.com/user-attachments/assets/213be2d7-501e-4baf-9102-28c18c35bda7)
