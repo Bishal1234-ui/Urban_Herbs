@@ -1,0 +1,61 @@
+.about_me{
+    background-color: rgb(27, 48, 78);
+    display: flex;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .about_me{
+      display: inline;
+    }
+  }
+  
+  .mobi{
+    margin: 20px;
+    background-image: url('./mobi.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  
+    height: 200px;
+    width: 200px;
+  }
+  
+  @media screen and (max_width:600px) {
+    .mobi{
+      margin: 0 auto;
+      background-image: url('./mobi.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  
+    height: 300px;
+    width: 300px;
+  
+    }
+    
+  }
+  
+  .me{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: start;
+  }
+  
+  .h{
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .ss{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+  }
