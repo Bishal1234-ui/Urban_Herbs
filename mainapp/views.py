@@ -15,3 +15,8 @@ def ehome(request):
 # pricing of e learn
 def pricing(request):
     return render(request, 'mainapp/learn/price.html')
+
+
+# shop page
+def shop(request):
+    return render(request, 'mainapp/shop/shop.html')
