@@ -5,7 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>price</title>
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -18,67 +19,37 @@
     
 <div class="container">
 
-<header>
-
-    <a href="#" class="logo">Urban <span>Herbs</span></a>
-
-    <div id="menu" class="fas fa-bars"></div>
-
-    <nav class="navbar">
-        <a href="home.html">Learn</a>
+    <header>
+       
+        <a href="{% static 'mainapp/img/learn/logo.png' %}" class="logo">Urban<span> Herbs</span></a>
+    
+        <div id="menu" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <a href="home.html">Learn</a>
             <!-- <a href="course.html">course</a> -->
-            <a href="price.html">Pricing</a>
+            <a href="{% url 'pricing' %}">Pricing</a>
             
             <!-- add the shopping home page link -->
             <a href="../shop.html">shop</a>
-        
-    </nav>
+           
+        </nav>
+    
+    </header>
 
-</header>
+<!-- home section  -->
 
-<h1 class="heading"> select the plan </h1>
+<section class="home">
 
-<!-- price section  -->
-
-<section class="price">
-
-    <div class="box">
-        <h3>monthly</h3>
-        <div class="amount"><span>₹</span>99<span>/month</span></div>
-        <ul>
-            <li>certificates</li>
-            <li>full courses</li>
-            <li>full modules</li>
-            <li>disease detection</li>
-            <li>24 x 7 supports</li>
-        </ul>
-        <a href="form.html" class="btn">select plan</a>
+    <div class="content">
+        <h3>Learn Organic Farming step by step with us!</h3>
+        <p style="font-style: italic;" >"With wrong farming methods, we turn fertile land into desert. Unless we go back to Organic farming and save the soil, there is no future."</p>
+        <p style="font-style: italic;" >        ---  Jaggi Vasudev</p>
+        <a href="{% url 'pricing' %}" class="btn">start learning</a>
     </div>
 
-    <div class="box">
-        <h3>half-yearly</h3>
-        <div class="amount"><span>₹</span>549<span>/6-months</span></div>
-        <ul>
-            <li>certificates</li>
-            <li>full courses</li>
-            <li>full modules</li>
-            <li>disease detection</li>
-            <li>24 x 7 supports</li>
-        </ul>
-        <a href="form.html" class="btn">select plan</a>
-    </div>
-
-    <div class="box">
-        <h3>annual</h3>
-        <div class="amount"><span>₹</span>1099<span>/year</span></div>
-        <ul>
-            <li>certificates</li>
-            <li>full courses</li>
-            <li>full modules</li>
-            <li>disease detection</li>
-            <li>24 x 7 supports</li>
-        </ul>
-        <a href="form.html" class="btn">select plan</a>
+    <div class="image">
+        <img src="{% static 'mainapp/img/learn/Fruit.jpg' %}" alt="">
     </div>
 
 </section>

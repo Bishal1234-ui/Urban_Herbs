@@ -7,3 +7,11 @@ def LoginPage(request):
 # page 2 - Learn vs Shop
 def page2(request):
     return render(request, 'mainapp/page2.html')
+
+# e learn home
+def ehome(request):
+    return render(request,'mainapp/learn/home.html')
+
+# pricing of e learn
+def pricing(request):
+    return render(request, 'mainapp/learn/price.html')
